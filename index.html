@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="mb-4">TODO List <i class="fa-solid fa-book-open fa-beat fa-sm" ></i></h1>
+    <label for="Todo" class="mb-4">Enter Your List</label>
+    <input type="text" id="Todo" placeholder="Type What you want to do" class="form-control mb-4">
+    <button type="button" class="btn btn-danger add" onclick="add()">ADD</button>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Check</th>
+            <th>Task</th>
+            <th>Del</th>
+        </tr>
+    </thead>
+    <tbody id="List"></tbody>
+</table>
+    <script src="js/script.js" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
